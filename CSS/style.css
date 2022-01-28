@@ -335,7 +335,7 @@ header {
 }
 
 .service-2 {
-    background-image: url(/img/img/vdzmnl-art.png);
+    background-image: url(/img/vdzmnl-art.png);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 750px;
@@ -349,7 +349,7 @@ header {
 
 .work {
     position: relative;
-    background-image: url(/img/img/bg-experience.jpg);
+    background-image: url(/img/bg-experience.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -687,7 +687,7 @@ header {
 /* Work-2 */
 
 .work-2 {
-    background: url(/img/icons/bg-w.svg);
+    background: url(/icons/bg-w.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 417px 395px 85px;
@@ -772,7 +772,7 @@ header {
 
 .request {
     display: flex;
-    background: url(/img/img/bg-r.png);
+    background: url(/img/bg-r.png);
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -1052,7 +1052,7 @@ header {
 
 footer {
     margin-top: 150px;
-    background: url(/img/img/Footer-bg.png);
+    background: url(/img/Footer-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 0 375px;
