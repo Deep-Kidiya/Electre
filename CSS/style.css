@@ -63,7 +63,7 @@ header {
 }
 
 .nav {
-    padding: 32px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,7 +201,7 @@ header {
 
 .services {
     background: #1F242C;
-    padding: 0 300px;
+    padding: 0 370px;
     position: relative;
 }
 
@@ -339,7 +339,7 @@ header {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 750px;
-    padding: 400px 299px 125px;
+    padding: 400px 370px 125px;
 }
 
 
@@ -417,12 +417,15 @@ header {
     display: flex;
     border-radius: 51px;
     background: #fff;
-    padding: 10px 10px 10px 80px ;
+    padding: 10px 10px 10px 10px ;
 }
 
 .email input {
+
+    width: 265px;
     background: transparent;
-    border: none;
+    border: transparent;
+    outline: none;
     border-radius: 51px;
     padding: 12px;
 }
@@ -476,96 +479,47 @@ header {
 
 .m-box {
     border-radius: 5px;
-    position: absolute;
-    top: 0;
-    width: 225px;
-    height: 125px;
+    position: relative;
+    transform: translateX(10%);
+    padding: 30px 30px;
+    width: fit-content;
+    min-width: 221px;
+    height: 100px;
     background: #fff;
-    top: 300px;
-    left: 20px;
     cursor: pointer;
+    top: -35px;
     transition: all 0.3s ease;
+}
+
+.imgwrap-1 {
+    height: 300px;
 }
 
 .m-box:hover {
     border-bottom: 1px solid #FF7029 ;
     height: 180px;
-    top: 245px;
+    top: -35px;
 }
 
-.m-box-2 {
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    width: 225px;
-    height: 125px;
-    background: #fff;
-    top: 300px;
-    left: 320px;
-    transition: all 0.3s ease;
+.team-2 img {
+    height: 480px;
 }
 
-.m-box-2:hover {
-    border-bottom: 1px solid #FF7029 ;
-    height: 180px;
-    top: 245px;
-}
-
-.m-box-3 {
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    width: 225px;
-    height: 125px;
-    background: #fff;
-    top: 300px;
-    left: 607px;
-    transition: all 0.3s ease;
-
-}
-
-.m-box-3:hover {
-    border-bottom: 1px solid #FF7029 ;
-    height: 180px;
-    top: 245px;
-}
-
-.m-box-4 {
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    width: 225px;
-    height: 125px;
-    background: #fff;
-    top: 300px;
-    left: 903px;
-    transition: all 0.3s ease;
-
-}
-
-.m-box-4:hover {
-    border-bottom: 1px solid #FF7029 ;
-    height: 180px;
-    top: 245px;
-}
-
-.m-box h1, .m-box-2 h1, .m-box-3 h1, .m-box-4 h1 {
-    padding: 35px 0 0 0;
+.m-box h1 {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: 700;
 }
 
 
+
 .m-box .links {
     display: flex;
     font-size: 30px;
-    padding: 0 0 0 45px;    
-  
+    justify-content: space-between;  
 }
 
 .m-box a {
-    margin-bottom: 40px;
     opacity: -20%;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -671,22 +625,35 @@ header {
     padding: 0 75px;
 }
 
+
 .team-2 .teams-box {
     position: absolute;
     top: -247px;
 }
 
+.img-wrap {
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.img-wrap:hover .box-w {
+    opacity: 1;
+    transform: translate(15%, -48%);
+} 
+
 .box-w {
-    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    transform: translate(15%, -35%);
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #FF7029;
     padding: 0 54px;
     border-radius: 5px;
-    bottom: -291px;
-    left: 38%;
     width: 440px;
+    transition: all 0.3s ease;
 }
 
 .box-w h1 {
@@ -732,9 +699,18 @@ header {
     text-transform: uppercase;
 }
 
+.work-2 img {
+    width: 320px;
+}
+
 .item {
     padding: 100px 0 0 0;
     display: grid;
+}
+
+.item-wrap {
+    height: 600px;
+
 }
 
 .r-box {
@@ -964,6 +940,8 @@ header {
 
 /* articles */
 
+
+
 .articles {
     padding: 110px 375px 0;
 }
@@ -1007,6 +985,7 @@ header {
     margin-top: 25px;
 }
 
+
 .box-ac img {
     border-radius: 5px 5px 0 0;
 }
@@ -1016,11 +995,11 @@ header {
 }
 
 .box-ac .date h1 {
+    transform: translateY(-50px);
     color: #fff;
     background: #57B33E;
     padding: 8px 23px;
     position: absolute;
-    top: 165px;
 }
 
 .box-a h1 {
@@ -1081,7 +1060,7 @@ footer {
 
 .contact-info {
     background: #57B33E;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
 }
 
 .info {
@@ -1128,9 +1107,15 @@ footer {
     margin-left: 10px;
 }
 
+.web-info .links .link-1 {
+    margin-left: -35px;
+}
+
 .web-info .links i {
-    font-size: 15px;
+    font-size: 25px;
+    margin-left: 30px;
     color: black;
+    text-align: center;
     transition: all 0.3s ease;
 }
 
@@ -1176,6 +1161,13 @@ footer {
     border: 2px solid transparent;
     margin-top: 15px;
     padding: 13px 94px;
+    transition: all 0.3s ease;
+}
+
+.web-info .Subscribe button:hover {
+    background: transparent;
+    border-color: #FF7029;
+    color: #FF7029;
 }
 
 .web-info .Subscribe p {

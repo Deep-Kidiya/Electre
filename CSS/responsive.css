@@ -1,5 +1,19 @@
 @media (max-width:1880px) {
 
+    /* services */
+
+    .service-2 {
+        padding: 400px 360px 125px;
+    }
+
+    .services {
+        padding: 0 360px;
+    }
+    
+
+
+    /* Services */
+
     .btn {
         left: 1299px;
     }
@@ -19,10 +33,49 @@
 
     /* End of Heading */
 
+    /* Work */
+
+    .work {
+        padding: 115px 360px;
+    }
+
+    /* End of Work */
+
+    /* Team */
+
+    .team {
+        padding: 0 360px;
+        background: #F0F4F9;
+    }
+
+    .team-2 {
+        padding: 0 45px;
+    }
+
+
+    /* End of Teams */
+
+    /* Articlas */
+
+    .articles {
+        padding: 110px 360px 0;
+    }
+
+    /* Articles */
+
+     /* Footer */
+
+    footer {
+        padding: 0 320px;
+    }
+
+    /* End of Footer */
+
 }
 
 @media (max-width:1800px) {
-    
+
+   
     .btn {
         left: 1247px;
         font-size: 18px;
@@ -36,10 +89,58 @@
         height: 600px;
     }
 
-  
-
     /* End of Heading */
 
+     /* services */
+
+     .service-2 {
+        padding: 400px 320px 125px;
+    }
+    
+    .services {
+        padding: 0 320px;
+    }
+
+
+    /* Services */
+
+    /* Work */
+
+    .work {
+        padding: 115px 320px;
+    }
+
+
+    /* End of Work */
+
+     /* Team */
+
+     .team {
+        padding: 0 360px;
+        background: #F0F4F9;
+    }
+
+    .team-2 {
+        padding: 0 25px;
+    }
+
+    /* End of Teams */
+    
+      /* Articlas */
+
+      .articles {
+        padding: 110px 320px 0;
+    }
+
+    /* Articles */
+
+    /* Footer */
+
+    footer {
+        padding: 0 320px;
+    }
+
+    /* End of Footer */
 }
 
 @media (max-width:1680px) {
@@ -87,11 +188,74 @@
 
     /* End of Heading */
 
+    /* Teams */
+
+    .boxs-4 img {
+        border-radius: 5px;
+        height: 256px;
+        width: 231px;
+    }
+
+    .m-box {
+        transform: translateX(5%);
+        padding: 23px 35px;
+        width: fit-content;
+        min-width: 210px;
+    }
+
+    .m-box .links {
+        display: flex;
+        font-size: 25px;
+        justify-content: space-between;
+    }
+
+    .m-box h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .m-box p {
+        font-size: 13px;
+    }
+
+    .team-2 img {
+        height: 438px;
+    }
+
+    .img-wrap:hover .box-w {
+        opacity: 1;
+        transform: translate(10%, -49%);
+    }
+
+    .box-w {
+        transform: translate(10%, -35%);
+    }
+
+    /* End of Teams */
+
+    /* Work-2 */
+
+    .work-2 {
+        padding: 417px 330px 85px;
+    }
+
+    /* End of Work-2 */
+
+    /* Articles */
+
+    .articles {
+        padding: 110px 261px 0;
+    }
+    /* End of Articles */
+
+
 }
 
 @media (max-width:1600px) {
 
     .btn {
+        padding: 16px 40px;
         left: 1154px;
         font-size: 15px;
     }
@@ -111,7 +275,92 @@
         height: 536px;
     }
 
+    .heading .btn {
+        top: -21px;
+        left: -3px;
+    }
+
     /* End of Heading */
+
+     /* services */
+
+     .service-2 {
+        padding: 400px 220px 125px;
+    }
+    
+    .services {
+        padding: 0 221px;
+    }
+
+
+    /* Services */
+
+    /* Work */
+
+    .work {
+        padding: 115px 320px;
+    }
+
+
+    /* End of Work */
+
+     /* Team */
+
+     .team {
+        padding: 0 320px;
+    }
+
+    .team-2 {
+        padding: 0 25px;
+    }
+
+    .team-2 img {
+        height: 420px;
+    }
+
+    .box-w {
+        transform: translate(8%, -25%);
+    }
+
+    .img-wrap:hover .box-w {
+        opacity: 1;
+        transform: translate(8%, -49%);
+    }
+
+    /* End of Teams */
+    
+    /* Work-2 */
+
+    .work-2 {
+        padding: 417px 274px 85px;
+    }
+
+   
+
+    .box-a p::after {
+        width: 241px;
+    }
+
+    /* End of Work-2 */
+
+
+      /* Articlas */
+
+      .articles {
+        padding: 110px 219px 0;
+    }
+
+    /* Articles */
+
+    /* Footer */
+    
+    footer {
+        padding: 0 235px;
+    }
+
+    /* End of Footer */
+
+    
 
 }
 
@@ -135,7 +384,12 @@
     }
 
     .heading .text h2 {
+        padding: 0 0 21px 0;
         font-size: 50px;
+    }
+
+    .heading .text h2::after {
+        width: 376px;
     }
 
     .heading .text p {
@@ -143,11 +397,125 @@
     }
     
     .heading .btn {
-        top: 370px;
-        left: 301px;
+        top: -18px;
+        left: -1px;
+    }
+
+    .heading .btn {
+        padding: 18px 45px;
     }
 
     /* End of Heading */
+
+    /* services */
+
+      .service-2 {
+        padding: 400px 140px 125px;
+    }
+    
+    .services {
+        padding: 0px 141px;
+    }
+
+   
+
+
+    /* Services */
+
+    /* Work */
+
+    .work {
+        padding: 115px 141px;
+    }
+
+
+    /* End of Work */
+
+     /* Team */
+
+     .team {
+        padding: 0 141px;
+    }
+
+    .team-2 {
+        padding: 0 25px;
+    }
+
+    .team-2 img {
+        height: 375px;
+    }
+
+    .box-w {
+        transform: translate(5%, -25%);
+    }
+
+    .img-wrap:hover .box-w {
+        opacity: 1;
+        transform: translate(5%, -49%);
+    }
+
+    /* End of Teams */
+    
+    /* Work-2 */
+
+    .work-2 {
+        padding: 417px 204px 85px;
+    }
+
+    
+
+    .box-a p::after {
+        width: 241px;
+    }
+
+    .box-w h2 {
+        font-family: var(--Teko);
+        text-transform: uppercase;
+        font-size: 28px;
+        color: #fff;
+        padding: 0 0 5px 0;
+    }
+
+    .box-w h1 {
+        padding: 15px 0 0 0;
+    }
+
+    .box-w {
+        padding: 0 43px;
+        width: 409px;
+    }
+
+
+
+    /* End of Work-2 */
+
+    .request .right img {
+        height: 534px;
+        margin: 160px 0;
+    }
+
+    .clients {
+        display: flex;
+        padding: 121px 160px;
+        position: relative;
+    }
+
+      /* Articlas */
+
+      .articles {
+        padding: 110px 142px 0;
+    }
+
+    /* Articles */
+
+    /* Footer */
+    
+    footer {
+        padding: 0 158px;
+    }
+
+    /* End of Footer */
+
 
 }
 
@@ -155,8 +523,9 @@
 
     .btn {
         left: 1027px;
+        top: 79px;
         font-size: 15px;
-        padding: 22px 52px;
+        padding: 16px 39px;
     }
 
     /* Heading */
@@ -170,10 +539,10 @@
     .heading .e-img img {
         height: 460px;
     }
-
+    
     .heading .btn {
-        top: 313px;
-    left: 262px;
+        top: 3px;
+        left: -2px;
     }
 
     .heading .text h2 {
@@ -192,6 +561,119 @@
     }
 
     /* End of Heading */
+
+     /* services */
+
+     .service-2 {
+        padding: 400px 105px 125px;
+    }
+    
+    .services {
+        padding: 0px 105px;
+    }
+
+   
+
+
+    /* Services */
+
+    /* Work */
+
+    .work {
+        padding: 115px 105px;
+    }
+
+
+    /* End of Work */
+
+     /* Team */
+
+     .team {
+        padding: 0 105px;
+    }
+
+    .team-2 {
+        padding: 0 25px;
+    }
+
+    .team-2 img {
+        height: 355px;
+    }
+
+    .box-w {
+        transform: translate(5%, -25%);
+    }
+
+    .img-wrap:hover .box-w {
+        opacity: 1;
+        transform: translate(5%, -49%);
+    }
+
+    .box-w h2 {
+        font-family: var(--Teko);
+        text-transform: uppercase;
+        font-size: 28px;
+        color: #fff;
+        padding: 0 0 0px 0;
+    }
+
+    .box-w {
+        padding: 0 32px;
+        width: 379px;
+    }
+
+    /* End of Teams */
+    
+    /* Work-2 */
+
+    
+
+    
+
+    .box-a p::after {
+        width: 241px;
+    }
+
+   
+
+    .box-w h1 {
+        padding: 15px 0 0 0;
+    }
+
+
+
+    /* End of Work-2 */
+
+    .work-2 {
+        padding: 417px 104px 85px;
+    }
+
+    .request .right img {
+        height: 508px;
+        margin: 181px 0;
+    }
+
+    .clients {
+        display: flex;
+        padding: 121px 105px;
+        position: relative;
+    }
+
+      /* Articlas */
+
+      .articles {
+        padding: 110px 105px 0;
+    }
+
+    /* Articles */
+
+    /* Footer */
+    
+    footer {
+        padding: 0 105px;
+    }
+
+    /* End of Footer */
 
 }
 
@@ -217,10 +699,298 @@
 
     /* End of Heading */
 
+      /* services */
+
+      .service-2 {
+        padding: 400px 61px 125px;
+    }
+    
+    .services {
+        padding: 0px 61px;
+    }
+
+   
+
+
+    /* Services */
+
+    /* Work */
+
+    .work {
+        padding: 115px 61px;
+    }
+
+
+    /* End of Work */
+
+     /* Team */
+
+     .team {
+        padding: 0 61px;
+    }
+
+    .team-2 {
+        padding: 0 25px;
+    }
+
+    .team-2 img {
+        height: 330px;
+    }
+
+    .box-w {
+        transform: translate(5%, -25%);
+    }
+
+    .img-wrap:hover .box-w {
+        opacity: 1;
+        transform: translate(5%, -49%);
+    }
+
+    .box-w h2 {
+        font-family: var(--Teko);
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #fff;
+        padding: 0 0 0px 0;
+    }
+
+    .box-w h1 {
+        font-size: 13px;
+    }
+
+    .box-w {
+        padding: 0 32px;
+        width: 340px;
+    }
+
+    /* End of Teams */
+    
+    /* Work-2 */
+
+    
+
+    
+
+    .box-a p::after {
+        width: 241px;
+    }
+
+   
+
+    .box-w h1 {
+        padding: 15px 0 0 0;
+    }
+
+
+
+    /* End of Work-2 */
+
+    .work-2 {
+        padding: 417px 61px 85px;
+    }
+
+    .request .right img {
+        height: 508px;
+        margin: 181px 0;
+    }
+
+    .request .left {
+        margin: 120px 70px;
+    }
+
+    .clients {
+        display: flex;
+        padding: 121px 61px;
+        position: relative;
+    }
+
+      /* Articlas */
+
+      .articles {
+        padding: 110px 61px 0;
+    }
+
+    /* Articles */
+
+    /* Footer */
+    
+    footer {
+        padding: 0 61px;
+    }
+
+    /* End of Footer */
+
 }
 
-@media (max-width:1200px) {}
-@media (max-width:1024px) {}
+@media (max-width:1200px) {
+    .btn {
+        left: 948px;
+        padding: 15px 46px;
+        font-size: 15px;
+    }
+
+    .h-contact {
+        margin: 0 187px;
+    }
+
+    .image img {
+        position: absolute;
+        top: -4px;
+        margin-left: -70px;
+    }
+
+    /* Heading */
+
+    .heading .text h2 {
+        padding: 0 0 21px 0;
+        font-size: 45px;
+    }
+
+    .heading .text p {
+        font-size: 13px;
+    }
+
+    .heading .text h2::after {
+        width: 365px;
+    }
+
+    .heading .e-img img {
+        height: 419px;
+    }
+
+    .heading .sun-img img {
+        height: 315px;
+        right: 203px;
+        top: 24px;
+    }
+
+    /* End of Heading */
+
+      /* services */
+
+      .service-2 {
+        padding: 400px 20px 125px;
+    }
+    
+    .services {
+        padding: 0px 20px;
+    }
+
+   
+
+
+    /* Services */
+
+    /* Work */
+
+    .work {
+        padding: 115px 20px;
+    }
+
+
+    /* End of Work */
+
+     /* Team */
+
+     .team {
+        padding: 0 20px;
+    }
+
+    .team-2 {
+        padding: 0 25px;
+    }
+
+    .team-2 img {
+        height: 310px;
+    }
+
+    .box-w {
+        transform: translate(4%, -25%);
+    }
+
+    .img-wrap:hover .box-w {
+        opacity: 1;
+        transform: translate(4%, -49%);
+    }
+
+    .box-w h2 {
+        font-family: var(--Teko);
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #fff;
+        padding: 0 0 0px 0;
+    }
+
+    .box-w h1 {
+        font-size: 13px;
+    }
+
+    .box-w {
+        padding: 0 32px;
+        width: 340px;
+    }
+
+    /* End of Teams */
+    
+    /* Work-2 */
+ 
+    .box-a p::after {
+        width: 241px;
+    }
+
+   
+
+    .box-w h1 {
+        padding: 15px 0 0 0;
+    }
+
+
+
+    /* End of Work-2 */
+
+    .work-2 {
+        padding: 417px 20px 85px;
+    }
+
+    .request .right img {
+        height: 508px;
+        margin: 181px 0;
+    }
+
+    .request .left {
+        margin: 120px 70px;
+    }
+
+    .clients {
+        display: flex;
+        padding: 121px 20px;
+        position: relative;
+    }
+
+      /* Articlas */
+
+      .articles {
+        padding: 110px 20px 0;
+    }
+
+    /* Articles */
+
+    /* Footer */
+    
+    footer {
+        padding: 0 20px;
+    }
+
+    /* End of Footer */
+}
+
+@media (max-width:1024px) {
+
+    .boxs {
+        display: grid;
+    }
+}
+
 @media (max-width:912px) {}
 @media (max-width:820px) {}
 @media (max-width:768px) {}
