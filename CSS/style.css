@@ -16,6 +16,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* Header */
 
@@ -56,10 +60,18 @@ header {
     padding: 0 10px;
 }
  
-.image img {
+.image {
     position: absolute;
-    top: -4px;
-    margin-left: -15px;
+    top: 0;
+    left: 15%;
+    padding: 1rem;
+    z-index: 1;
+    background: #fff;
+    height: 15%;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav {
@@ -258,6 +270,17 @@ header {
 
 
 
+.box-1:after {
+    content: '';
+    left: 0px;
+    position: absolute;
+    background: #FF7029;
+    width: 0px;
+    height: 3px;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
 .box-1:hover:after {
     content: '';
     left: 50px;
@@ -329,6 +352,16 @@ header {
     bottom: 0;
     background: #FF7029;
     width: 43px;
+    height: 6px;
+    transition: all 0.3s ease;
+}
+
+.box-2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: #FF7029;
+    width: 0px;
     height: 6px;
     transition: all 0.3s ease;
 }
@@ -980,7 +1013,8 @@ header {
     border-radius: 5px;
     background: #fff;
     box-shadow: 0px 0px 20px 6px rgb(31 36 44 / 10%);
-    height: 485px;
+    height: 506px;
+    overflow: hidden;
     margin-top: 25px;
 }
 
